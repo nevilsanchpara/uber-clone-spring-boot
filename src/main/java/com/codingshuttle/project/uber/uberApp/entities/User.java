@@ -42,6 +42,7 @@ public class User implements UserDetails {
                 .collect(Collectors.toSet());
     }
 
+
     @Override
     public String getUsername() {
         return email;
